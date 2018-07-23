@@ -25,7 +25,7 @@ t_MULTIPLY = r'\*'
 t_DIVIDE = r'\/'
 t_EQUALS = r'\='
 
-# Ply's special t_ignore variable allows us to define characters the lexer will ignore.Специальная переменная t_ignore позволяет указать символы, которые будет игнорировать lex
+# Специальная переменная t_ignore позволяет указать символы, которые будет игнорировать lex
 # Игнорим только пробелы, так как в перспективе будем работать с переменными.
 t_ignore = r' '
 
